@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.container .sidemenu{
+    width: 14%;
+    height: 880px;
+    border-right:2px solid rgb(230, 230, 230);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: fixed;
+    
+}
+.sidemenu div i{
+    color: black;
+}
+
+.sidemenu div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 18%;
+    padding: 14px;
+}
+.sidemenu div:visited{
+    
+    background-color: rgb(235, 235, 235);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.sidemenu div:hover{
+
+    background-color: rgb(235, 235, 235);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.sidemenu .img:hover{
+    background-color: rgb(226, 238, 249);
+}
+.container div.home{
+    width: 50%;
+    border-right: 2px solid rgb(231, 231, 231);
+    margin-left: 180px;
+}
+.container .home .status{
+    border-bottom: 2px solid rgb(228, 228, 228);
+    height: 150px;
+}
+
+.container .home span{
+    
+     font-size: 22px;
+     padding: 10px;
+}
+.container .home .input span{
+    position: absolute;
+    margin-top: 38px; 
+    font-size: 13px; 
+    margin-left: 60px;
+    color: rgb(141, 209, 232);
+    display: none;
+}
+.container .home .input{
+    margin-top: 15px;
+}
+.container .home .input textarea{
+    border: none;
+    padding: 20px;
+    width: 80%;
+    font-size: 20px;
+}
+.container .home .input textarea:focus{
+
+ outline: none;
+   
+}
+.container .home .input textarea::placeholder{
+    font-size: 20px;
+}
+.container .home .input img{
+    border-radius: 50px;
+    margin-left: 10px;
+    
+}
+.container .home .status .icons{
+    margin-left: 70px;
+    margin-top: -15px;
+}
+.container .home .status .icons i,.btn{
+    padding: 15px;
+}
+.container .home .status .icons .btn{
+    position: absolute;
+    left: 710px;
+    
+}
+.container .home .status .icons .btn button{
+    width: 75px;
+    height: 36px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(199, 228, 252);
+    color: white;
+    font-size: 15px;
+}
+.container .home .post{
+    border-bottom: 2px solid lightgray;
+    height: 450px;
+}
+.container .home .post .name{
+    display: flex;
+    margin-left: 12px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container .home .post .name .span1{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.container .home .post .name .span2{
+    font-size: 15px;
+    margin-left: -14px;
+    color: rgb(195, 193, 193);
+}
+.container .home .post .postpic {
+    width: 90%;
+  margin-left: 80px;
+}
+.container .home .post .postpic img{
+   border-radius: 15px;
+   border: 1px solid lightgray;
+}
+.container .home .post .postlower {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.container .home .post .postlower .fa1:hover{
+    background-color: rgb(160, 205, 245);
+    cursor: pointer;
+}
+.container .home .post .postlower .fa2:hover{
+    background-color: rgb(172, 243, 172);
+    cursor: pointer;
+}
+.container .home .post .postlower .fa3:hover{
+    background-color: rgb(237, 150, 150);
+    cursor: pointer;
+}
+.container .home .post .postlower .fa4:hover{
+    background-color: rgb(160, 205, 245);
+    cursor: pointer;
+}

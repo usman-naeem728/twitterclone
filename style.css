@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bgpic{
+  width: 50%;
+  height: 820px;
+  background-image: url('image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.login{
+    width: 50%;
+}
+.login img{
+  margin-top: 70px;
+  margin-left: 40px;
+}
+.login h1{
+  margin-left: 30px;
+  font-size: 80px;
+  font-weight: 750px;
+  font-family: monospace;
+}
+.login h2{
+  margin-left: 40px;
+  font-size: 32px;
+  font-weight: 700px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.login .btns .btn1 button{
+  margin: 10px;
+  margin-left: 40px;
+  width: 270px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500px;
+  border-radius: 20px;
+  display: block;
+  background: transparent;
+  border: 1px solid rgb(188, 188, 188);
+  cursor: pointer;
+}
+.login .btns .btn1 button:hover{
+  background-color: lightgrey;
+}
+.login .btns span{
+  margin-top: 2px;
+  margin-left: 150px;
+  font-size: 15px;
+}
+.login .btns .btn2 button{
+  margin: 20px;
+  margin-left: 40px;
+  width: 270px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500px;
+  border-radius: 20px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(49, 131, 182);
+  color: white;
+}
+.login .btns .btn2 button:hover{
+  background-color: rgb(33, 108, 154);
+}
+.login .btns .btn2 h6{
+  margin-left: 45px;
+  margin-top: -15px;
+  width: 270px;
+  color: rgb(135, 134, 134);
+}
+.login .btns .btn3 h3{
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: -20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login .btns .btn3 button{
+  margin: 20px;
+  margin-left: 40px;
+  width: 270px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500px;
+  border-radius: 20px;
+  display: block;
+  border: 1px solid rgb(188, 188, 188);
+  cursor: pointer;
+  background-color:white ;
+  color: rgb(49, 131, 182);
+}
+.login .btns .btn3 button:hover{
+  background-color: rgb(223, 239, 245);
+}
+.footer{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(231, 231, 231);
+  
+}
+.footer .div1{
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+.footer .div2{
+  display: flex;
+  justify-content:center;
+  font-size: 15px;
+  padding: 5px;
+}
